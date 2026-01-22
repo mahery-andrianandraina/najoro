@@ -141,19 +141,17 @@ function shootingRain(count = 8){
 /* 💖 Messages d’amour */
 const loveMessages = {
   love: [
-    "💖 Najoro Hervé, te connaître est le plus beau cadeau que cette année m’ait offert ✨",
-    "💝 Tu es précieux, et je te souhaite tout le bonheur du monde 🌸"
+    "💖 Najoro Hervé, te connaître est le plus beau cadeau que cette année m’ait offert ✨"
+   
   ],
   firework: [
-    "🔥 Tu rends ma vie plus belle et plus lumineuse ✨",
     "🌹 Tu es la plus belle surprise de mon année 💝"
   ],
   stars: [
-    "✨ Tu es mon rêve préféré 🌙💝",
-    "💫 Je te souhaite une vie brillante et douce 🌸"
+   "💝 Tu es précieux, et je te souhaite tout le bonheur du monde 🌸",
+
   ],
   gifts: [
-    "✨ Frérot, t’avoir dans ma vie, c’est un vrai cadeau !",
     "🌹 Je suis fier de toi et heureux de te connaître ❤️"
   ]
 };
