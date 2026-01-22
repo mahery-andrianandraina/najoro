@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carte Anniversaire 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌧️ Layer global pour les choses qui tombent -->
+  <div id="falling-layer"></div>
+
+  <!-- Background animations -->
+  <div class="bg-hearts"></div>
+  <div class="glow"></div>
+
+  <!-- Sound -->
+  <button class="sound-btn" id="soundBtn">🎶 Activer la musique</button>
+
+  <main class="wrapper">
+
+    <!-- Card -->
+    <section class="card" id="card">
+
+      <!-- Front -->
+      <div class="card-face card-front">
+        <p class="mini">💌 Pour une personne spéciale...</p>
+        <h1>Joyeux Anniversaire 🎂</h1>
+        <h2 class="to-name">Najoro Hervé 💖</h2>
+
+     <p class="tap" id="openTap">👇 Clique pour ouvrir</p>
+
+      </div>
+
+      <!-- Back -->
+      <div class="card-face card-back">
+        <h2>✨ Najoro Hervé ✨</h2>
+
+        <!-- Photo -->
+        <div class="photo-box">
+          <img src="herve.jpg" alt="Photo de Najoro Hervé">
+        </div>
+
+        <p class="message">
+Joyeux anniversaire frérot 🎉<br>
+Te connaître est l’un des plus beaux cadeaux de cette année.<br>
+Je te souhaite force, réussite, bonheur et des projets qui déchirent 💪✨<br>
+Reste comme tu es, t’es quelqu’un de précieux 🤍
+        </p>
+
+        <div class="signature">
+          <p>Calin et gros bisous,</p>
+          <h3>Mahery Andrianandraina</h3>
+          <p class="phone">📞 +261 33 43 490 14</p>
+        </div>
+
+        <!-- 🎁 Cadeaux interactifs -->
+        <div class="gift-area">
+
+          <div class="gift-box" data-type="love" title="Message d'amour">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <span>💖</span>
+          </div>
+
+          <div class="gift-box" data-type="firework" title="Feux d’artifice">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <span>🎆</span>
+          </div>
+
+          <div class="gift-box" data-type="stars" title="Étoiles filantes">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <span>💫</span>
+          </div>
+
+          <div class="gift-box" data-type="gifts" title="Pluie de cadeaux">
+            <div class="lid"></div>
+            <div class="box"></div>
+            <span>🎁</span>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <p class="hint">Copyright Mahery ANDRIANANDRAINA 2026</p>
+  </main>
+
+  <!-- Audio -->
+  <audio id="birthdayAudio" loop>
+    <source src="happy-birthday.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
